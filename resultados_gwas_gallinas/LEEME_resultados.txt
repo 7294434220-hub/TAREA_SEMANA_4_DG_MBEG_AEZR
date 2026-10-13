@@ -1,0 +1,17 @@
+GWAS exploratorio de peso corporal en gallinas indigenas de Etiopia.
+Fuente de genotipos: chickens_small.vcf.gz proporcionado para la tarea.
+Fuente de fenotipos: Gheyas et al. (2022), Online-only Table 1.
+DOI: https://doi.org/10.1038/s41597-022-01129-4
+VCF: 234 muestras; 434529 variantes originales.
+GWAS: 193 individuos completos; 413443 SNP autosomicos filtrados.
+Fenotipo: peso corporal (kg). Covariables: edad (meses), sexo y 3 PCs.
+No se imputaron pesos ni edades. Se imputaron genotipos faltantes con Major (rMVP).
+Filtro SNP: bialelicos, PASS o sin filtro, MAF >=0.05 y faltantes <=0.20 en casos completos.
+Se excluyeron cromosomas W/Z y secuencias sin ubicacion autosomica.
+Los PCs proceden de la matriz VanRaden de los SNP filtrados; no se realizo poda por LD.
+Las tablas conservan la diferencia de ID TMLM-_C94 -> TMLM_-C94.
+Umbral de Bonferroni: 0.05/413443 = 1.2093565e-07.
+Los umbrales 1e-6 y 1e-4 del docente tambien se dibujan, como referencia de clase.
+El articulo describe datos genomicos; este GWAS de peso es una aplicacion de la tarea, no un resultado publicado alli.
+El VCF es un subconjunto. Los resultados no representan el conjunto de aproximadamente 15 M SNP del articulo.
+La muestra es pequena y el peso depende del manejo/ambiente. Una asociacion no demuestra causalidad.

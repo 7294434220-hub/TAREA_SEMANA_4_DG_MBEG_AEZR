@@ -1,0 +1,2 @@
+"SNP","Chromosome","Position","Effect","SE","Peso_kg.GLM","P_valor","P_ajustada_Bonferroni","Significativo_Bonferroni","Modelo"
+"4:30202974:A:C",4,30202974,0.19701465024706,0.0348138118774437,5.67727314335967e-08,5.67727314335967e-08,0.0234722884021005,TRUE,"GLM"
